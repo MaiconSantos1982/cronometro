@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronômetro</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/[email protected]/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/[email protected]/font/bootstrap-icons.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-fluid d-flex justify-content-center align-items-center min-vh-100">
+        <div class="stopwatch-wrapper">
+            <!-- Display do cronômetro -->
+            <div class="display-area" id="display">
+                <span id="minutes">00</span>:<span id="seconds">00</span>,<span id="milliseconds">00</span>
+            </div>
+            
+            <!-- Botões de controle -->
+            <div class="controls d-flex justify-content-center gap-4 mt-5">
+                <button class="btn btn-control" id="resetBtn" onclick="reset()">
+                    <i class="bi bi-arrow-counterclockwise"></i>
+                </button>
+                
+                <button class="btn btn-control btn-primary-custom" id="startPauseBtn" onclick="startPause()">
+                    <i class="bi bi-play-fill" id="playPauseIcon"></i>
+                </button>
+                
+                <button class="btn btn-control" id="stopBtn" onclick="stop()">
+                    <i class="bi bi-stop-fill"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
