@@ -70,9 +70,12 @@ body {
 
 .btn-control i {
     font-size: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    color: #ffffff !important;
+    line-height: 1;
+}
+
+.btn-control i::before {
+    color: #ffffff !important;
 }
 
 .btn-start {
