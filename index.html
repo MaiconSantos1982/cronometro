@@ -15,24 +15,24 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="container-fluid vh-100 d-flex justify-content-center align-items-center">
-        <div class="stopwatch-wrapper text-center">
+    <div class="main-container">
+        <div class="stopwatch-content">
             <!-- Display do cronômetro -->
-            <div class="display-area mb-5" id="display">
+            <div class="display-area">
                 <span id="minutes">00</span>:<span id="seconds">00</span>,<span id="milliseconds">00</span>
             </div>
             
             <!-- Botões de controle -->
-            <div class="d-flex justify-content-center align-items-center gap-4">
-                <button class="btn btn-control" id="resetBtn" onclick="reset()">
+            <div class="buttons-row">
+                <button class="btn-control" onclick="reset()">
                     <i class="bi bi-arrow-counterclockwise"></i>
                 </button>
                 
-                <button class="btn btn-control btn-primary-custom" id="startPauseBtn" onclick="startPause()">
+                <button class="btn-control btn-start" onclick="startPause()">
                     <i class="bi bi-play-fill" id="playPauseIcon"></i>
                 </button>
                 
-                <button class="btn btn-control" id="stopBtn" onclick="stop()">
+                <button class="btn-control" onclick="stop()">
                     <i class="bi bi-stop-fill"></i>
                 </button>
             </div>
