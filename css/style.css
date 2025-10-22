@@ -68,24 +68,14 @@ body {
     padding: 0;
 }
 
-.btn-control i {
-    font-size: 30px;
-    color: #ffffff !important;
-    line-height: 1;
-}
-
-.btn-control i::before {
-    color: #ffffff !important;
+.btn-control svg {
+    fill: #ffffff;
 }
 
 .btn-start {
     background-color: #0a84ff;
     width: 80px;
     height: 80px;
-}
-
-.btn-start i {
-    font-size: 34px;
 }
 
 .btn-control:hover {
@@ -113,8 +103,9 @@ body {
         height: 65px;
     }
     
-    .btn-control i {
-        font-size: 26px;
+    .btn-control svg {
+        width: 26px;
+        height: 26px;
     }
     
     .btn-start {
@@ -122,8 +113,9 @@ body {
         height: 75px;
     }
     
-    .btn-start i {
-        font-size: 30px;
+    .btn-start svg {
+        width: 30px;
+        height: 30px;
     }
     
     .buttons-row {
@@ -146,8 +138,9 @@ body {
         height: 60px;
     }
     
-    .btn-control i {
-        font-size: 24px;
+    .btn-control svg {
+        width: 24px;
+        height: 24px;
     }
     
     .btn-start {
@@ -155,8 +148,9 @@ body {
         height: 70px;
     }
     
-    .btn-start i {
-        font-size: 28px;
+    .btn-start svg {
+        width: 28px;
+        height: 28px;
     }
     
     .buttons-row {
