@@ -15,15 +15,15 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="container-fluid d-flex justify-content-center align-items-center min-vh-100">
-        <div class="stopwatch-wrapper">
+    <div class="container-fluid vh-100 d-flex justify-content-center align-items-center">
+        <div class="stopwatch-wrapper text-center">
             <!-- Display do cronômetro -->
-            <div class="display-area" id="display">
+            <div class="display-area mb-5" id="display">
                 <span id="minutes">00</span>:<span id="seconds">00</span>,<span id="milliseconds">00</span>
             </div>
             
             <!-- Botões de controle -->
-            <div class="controls d-flex justify-content-center gap-4 mt-5">
+            <div class="d-flex justify-content-center align-items-center gap-4">
                 <button class="btn btn-control" id="resetBtn" onclick="reset()">
                     <i class="bi bi-arrow-counterclockwise"></i>
                 </button>
