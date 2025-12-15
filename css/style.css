@@ -157,3 +157,30 @@ body {
         gap: 18px;
     }
 }
+
+/* Adicione ao final do seu style.css */
+
+.btn-control-mini {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: #282828; /* Cor de fundo Spotify Dark */
+    color: #1db954; /* Verde Spotify */
+    font-size: 20px;
+    transition: all 0.2s ease;
+}
+
+.btn-control-mini:hover {
+    background-color: #333333;
+    transform: scale(1.1);
+    color: #1ed760;
+}
+
+.btn-control-mini:active {
+    transform: scale(0.95);
+}
+
+.play-spotify {
+    font-size: 26px; /* Play um pouco maior */
+}
